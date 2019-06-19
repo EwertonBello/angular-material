@@ -13,8 +13,8 @@ export class DetailsComponent{
   filme: any={title:'Details', opening_crawl:'', image:''};
 
   constructor(
-  	private location: Location,
-  	private router: Router,
+  	public location: Location,
+  	public router: Router,
   	) { 
       if (!this.router.getCurrentNavigation().extras.state) {
         this.location.back();
