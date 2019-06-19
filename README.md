@@ -2,7 +2,7 @@
 Um projeto simples em Angular, com consumo da API do StarWars e implementação do Angular Material no design.<br/><br/>
 <Strong>API Star Wars: </Strong>(https://swapi.co)<br/>
 <Strong>Angular Material: </Strong>(https://material.angular.io/)<br/>
-<Strong>Demo: </Strong>(https://ewertonbello.github.io/angular-material/)<br/>
+<Strong>Demo do projeto: </Strong>(https://ewertonbello.github.io/angular-material/)<br/>
 <hr>
 
 <div>
