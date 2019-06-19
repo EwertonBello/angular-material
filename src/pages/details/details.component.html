@@ -1,0 +1,13 @@
+<mat-toolbar>
+<button mat-icon-button>
+	<mat-icon (click)="location.back()">arrow_back</mat-icon>
+</button>
+{{ filme.title }}
+</mat-toolbar>
+<mat-card>
+  <img mat-card-image src="{{ filme.image }}" alt="Logo">
+  <mat-card-content>
+    <mat-card-title>{{ filme.title }}</mat-card-title>
+    <mat-card-subtitle>{{ filme.opening_crawl }}</mat-card-subtitle>
+  </mat-card-content>
+</mat-card>

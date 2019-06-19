@@ -1,0 +1,9 @@
+<mat-list *ngFor="let filme of filmes">
+  <mat-action-list>
+    <button mat-list-item (click)="abrirDetails(filme)">
+      <img matListAvatar src="{{IMAGE}}" alt="Logo">
+      <h3 matLine> {{ filme.title }} </h3>
+    </button>
+  </mat-action-list>
+</mat-list>
+<mat-spinner *ngIf="loading"></mat-spinner>
