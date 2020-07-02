@@ -7,7 +7,7 @@ import { Filme } from '../model/filme';
 })
 export class FilmesService {
 
-  private readonly API = 'https://swapi.dev/api/films';
+  private readonly API = 'https://swapi.dev/api/films/';
 
   constructor(private http: HttpClient) { }
 
